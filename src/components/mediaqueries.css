@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) {
+    .navbar{
+        display: none;
+    }
+    .hamburgerId{
+        display: flex;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .profileMain1{
+        display: none;
+    }
+    .profileMain2{
+        display:contents;
+    }
+    .profileMains{
+        height: 57rem;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .aboutMain1{
+        display: none;
+    }
+    .aboutMain2{
+        display:contents;
+    }
+    .about{
+        height: 58rem;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .projectsMain1{
+        display: none;
+    }
+    .projectsMain2{
+        display:contents;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .projectsMain1{
+        display: none;
+    }
+    .projectsMain2{
+        display:contents;
+    }
+    
+}

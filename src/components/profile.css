@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+
+
+.profileMain1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 11rem;
+    gap: 5rem;
+}
+
+.profileMain1 .description{
+    width: fit-content;
+}
+
+.image{
+    
+    height: 20rem;
+    border-radius: 75%;
+}
+
+.profileMain1 .pic{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.profileMain1 .description .one{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+    cursor: default;
+}
+.profileMain1 .description .two{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+    cursor: default;
+    color: white;
+}
+
+.profileMain1 .description .three{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+    cursor: default;
+}
+
+.profileMain1 .description .four{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+
+.profileMain2{
+    
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: black;
+}
+
+.profileMain2 .pic2{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+    
+.profileMain2 .description2{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.description2 .one2{
+    align-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+    cursor: default;
+}
+.description2 .two2{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+    cursor: default;
+    color: white;
+}
+
+.description2 .three2{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+    cursor: default;
+}
+
+.description2 .four2{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+
+
+.cv {
+    height: 3.4rem;
+    width: 9rem;
+    border: 3px solid rgb(234, 196, 48);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform-origin: center;
+}
+
+.cv a{
+    color: rgb(234, 196, 48);
+}
+.cv a:hover{
+    background-color: rgb(234, 196, 48);
+    color: black;
+    
+}
+
+.cv:hover {
+    background-color: rgb(234, 196, 48);
+    color: black;
+    border: 3px solid white;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.11); /* Slightly scaled up to match the size increase */
+}
+

@@ -1,0 +1,30 @@
+
+.mySkills{
+    text-align: center;
+    
+    font-size: xxx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.mySkills .left{
+    color: white;
+}
+
+.HTML p, .JAVA p, .CSS p, .JAVASCRIPT p, .React p, .C_Cpp p, .python p, .Bootstrap  p{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.skillStatUp, .skillStatDown{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.skillStats{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
