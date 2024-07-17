@@ -5,7 +5,7 @@ import "./mediaqueries.css";
 
 const PdfLink = () => {
   const pdfUrl =
-    "https://drive.google.com/file/d/16whPlKjUyXy2S5zDNBuaCr03Z7m-Jj3_/view?usp=sharing";
+    "https://drive.google.com/file/d/1vMGQDW0QKr_wDfjyDlZzz1_w9Ftq_wqj/view?usp=drive_link";
 
   const viewPdf = () => {
     window.open(pdfUrl, "_blank", "noopener,noreferrer");
